@@ -1,0 +1,37 @@
+body {
+    font-family: "bauhaus", arial, sans-serif;
+    background-color: lime;
+    text-align: center
+  }
+  
+  table {
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #E0FFFF;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px;
+    margin: 20px 10px;
+  }
+  .storybox {
+    border-color: black;
+    background-color: #E0FFFF;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px;
+    margin: 20px 10px;
+  }
+  .wrapper{
+    display:grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  #grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+
